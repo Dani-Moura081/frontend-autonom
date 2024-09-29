@@ -3,7 +3,6 @@ import { FaBolt } from "react-icons/fa"; // Importa o ícone de raio da Font Awe
 
 import "./index.scss";
 function Home() {
-  const [count, setCount] = useState(0);
   return (
     <>
       <div className="page-home page">
