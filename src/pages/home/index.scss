@@ -50,9 +50,6 @@
       object-fit: cover;
       z-index: -1;
     }
-    padding: 0;
-    display: flex;
-    flex-direction: column;
     > div {
       position: absolute;
       font: 500 "Roboto";
@@ -79,8 +76,7 @@
     }
   }
   .content-init {
-    width: 100%;
-    height: 100vh;
+    
   }
 
 }
