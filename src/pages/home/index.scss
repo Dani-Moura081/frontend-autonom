@@ -38,7 +38,7 @@
     align-items: center;
     gap: 20px;
     justify-content: space-between;
-  } 
+  }
   //
   .content {
     .button {
@@ -78,7 +78,7 @@
       }
     }
   }
-  // 
+  //
   .content-init {
     display: flex;
     flex-direction: column;
@@ -124,5 +124,12 @@
       }
     }
   }
-  // 
+  //
+  .content-mid {
+    text-align: center;
+    .container-eletricaEspecifications {
+      display: flex;
+      flex-direction: row;
+    }
+  }
 }

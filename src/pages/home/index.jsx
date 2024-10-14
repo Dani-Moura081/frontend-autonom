@@ -8,7 +8,7 @@ function Home() {
       <div className="page-home page">
         <header>
           <div className="list-header">
-            <img src="/src/assets/Lightning Bolt.svg" alt="logo raio" />
+            <img src="/src/assets/Bolt.svg" alt="logo raio" />
             <h1>ELÉTRICA</h1>
           </div>
           <nav>
@@ -22,7 +22,7 @@ function Home() {
         </header>
         <section className="content">
           <img
-            src="/src/assets/Hero Image.svg"
+            src="/src/assets/eletricistImg2.svg"
             alt="imagem eletricista"
             className="imagem-fundo"
           />
@@ -44,13 +44,61 @@ function Home() {
               <button className="button">Ver mais...</button>
             </div>
             <div className="imagem">
-              <img src="/src/assets/Rectangle4.svg" alt="" />
+              <img
+                src="/src/assets/Eletricist.svg"
+                alt="Eletricista elethronos"
+              />
             </div>
           </div>
         </section>
-
-
-        
+        <section className="content-mid">
+          <h2>O que nós oferecemos</h2>
+          <p>
+            Oferecemos uma gama abrangente de serviços econômicos para
+            propriedades residenciais e comerciais
+          </p>
+          <div className="container-eletricaEspecifications">
+            <div>
+              <img
+                src="/src/assets/eletricImg1.svg"
+                alt="imagem placa eletrica"
+              />
+              <h3>Instalação elétrica</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque
+                illo assumenda mollitia, atque vel, eius quas harum quasi, totam
+                nemo necessitatibus ratione vitae. Non perferendis vel quibusdam
+                ipsa! In, blanditiis!
+              </p>
+            </div>
+            <div>
+              <img
+                src="/src/assets/eletricImgLampada.svg"
+                alt="imagem lampada cinza"
+              />
+              <h3>Instalação elétrica</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque
+                illo assumenda mollitia, atque vel, eius quas harum quasi, totam
+                nemo necessitatibus ratione vitae. Non perferendis vel quibusdam
+                ipsa! In, blanditiis!
+              </p>
+            </div>
+            <div>
+              <img
+                src="/src/assets/eletricImgTomada.svg"
+                alt="imagem tomada cinza"
+              />
+              <h3>Instalação elétrica</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque
+                illo assumenda mollitia, atque vel, eius quas harum quasi, totam
+                nemo necessitatibus ratione vitae. Non perferendis vel quibusdam
+                ipsa! In, blanditiis!
+              </p>
+            </div>
+          </div>
+        </section>
       </div>
     </>
   );
