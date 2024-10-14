@@ -29,18 +29,28 @@ function Home() {
           <div>
             <h1>Elétrica & Mais</h1>
             <p>Um serviço em que você pode confiar</p>
-            <button>Agende agora</button>
+            <button className="button">Agende agora</button>
           </div>
         </section>
         <section className="content-init">
           <div className="content-eletrica">
-            <div>
-              <h1>ELETHRONOS</h1>
-                <p>presta serviços a mais de 15 anos,sendo firmado como um dos serviços mais sólidos do mercado,  atuando no mercado com manutenção residencial, manutenção de aparelhos eletronicos.</p>
-                <button>Ver mais...</button>
+            <div className="text-eletrica">
+              <h1 className="title">ELETHRONOS</h1>
+              <p className="description">
+                presta serviços a mais de 15 anos, sendo firmado como um dos
+                serviços mais sólidos do mercado,atuando no mercado com
+                manutenção residencial, manutenção de aparelhos eletronicos.
+              </p>
+              <button className="button">Ver mais...</button>
+            </div>
+            <div className="imagem">
+              <img src="/src/assets/Rectangle4.svg" alt="" />
             </div>
           </div>
         </section>
+
+
+        
       </div>
     </>
   );

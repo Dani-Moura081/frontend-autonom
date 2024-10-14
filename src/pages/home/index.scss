@@ -4,7 +4,7 @@
   height: 100vh;
   display: flex;
   flex-direction: column;
-
+  //
   header {
     font-family: "Squada One" 36px;
     padding: 10px;
@@ -38,11 +38,25 @@
     align-items: center;
     gap: 20px;
     justify-content: space-between;
-  }
+  } 
+  //
   .content {
+    .button {
+      margin-top: 10px;
+      border: none;
+      border-radius: 5px;
+      color: white;
+      background-color: #ff9900;
+      width: 210px;
+      padding: 10px 0px 10px 0px;
+      cursor: pointer;
+      font: 500 28px "Roboto";
+    }
+    .button:hover {
+      background-color: #ff8c00;
+    }
     display: block;
     .imagem-fundo {
-      position: absolute;
       top: 0;
       left: 0;
       width: 100%;
@@ -62,21 +76,53 @@
       p {
         font-size: 1.5em;
       }
-     
-      button {
-        margin-top: 10px;
-        border: none;
-        border-radius: 5px;
-        color: white;
-        background-color: #ff9900;
-        width: 210px;
-        padding: 10px 0px 10px 0px;
-        font: 500 28px "Roboto";
+    }
+  }
+  // 
+  .content-init {
+    display: flex;
+    flex-direction: column;
+    padding: 80px 120px 80px 120px;
+    align-items: center;
+    justify-content: center;
+    .content-eletrica {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      .text-eletrica {
+        max-width: 45%;
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        .title {
+          font-size: 2.3em;
+          font-weight: bold;
+          margin-bottom: 10px;
+        }
+        .description {
+          font-size: 26px;
+          line-height: 1.4;
+          margin-bottom: 20px;
+        }
+
+        .button:hover {
+          background-color: #ff8c00;
+        }
+
+        .button {
+          text-align: center;
+          border: none;
+          color: white;
+          background-color: #ff9900;
+          width: fit-content;
+          padding: 10px 33px 10px 33px;
+          font: 500 20px "Roboto";
+          cursor: pointer;
+          transition: background-color 0.3s ease;
+        }
       }
     }
   }
-  .content-init {
-    
-  }
-
+  // 
 }
