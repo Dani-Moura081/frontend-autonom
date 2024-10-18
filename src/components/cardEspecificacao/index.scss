@@ -1,24 +1,31 @@
 .comp-content-mid {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  h2 {
+    margin-bottom: 20px;
+    font: 700 35px "Roboto";
+  }
+  p {
+    font: 400 20px "Roboto";
+  }
   .content-mid {
+    display: flex;
+    // flex-direction: column;
     text-align: center;
-    h2 {
-      margin-bottom: 20px;
-      font: 700 35px "Roboto";
-    }
-    p {
-      font: 400 20px "Roboto";
-    }
+   
     .container-eletricaEspecifications {
       display: flex;
-      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
       & > div {
+        min-width: auto;
+        width: fit-content;
         display: flex;
         flex-direction: column;
         align-items: center;
         gap: 15px;
-        padding: 40px;
-        align-items: center;
-        justify-content: center;
+        padding: 35px;
         h3 {
           font: 400 32px "Roboto";
         }

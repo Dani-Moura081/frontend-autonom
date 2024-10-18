@@ -41,6 +41,9 @@ function Home() {
           </div>
         </section>
         <CardEspecifications/>
+        <section className="recent-projects">
+
+        </section>
       </div>
     </>
   );
