@@ -91,6 +91,34 @@
       }
     }
   }
-  //
- 
+  // projects recent
+  .recent-projects {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f1f1f1;
+    h3 {
+      font: 500 40px "Roboto";
+    }
+    .projects {
+      display: flex;
+      width: 100%;
+      gap: 10px;
+      justify-content: space-between;
+    
+      img {
+        padding: 50px;
+        // width: 300px;
+      }
+    } 
+  }
+  .feedbacks {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    h4 {
+      font: 500 40px "Roboto";
+    }
+  }
 }

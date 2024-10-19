@@ -3,7 +3,7 @@ import "./index.scss";
 export default function CardEspecifications() {
   return (
     <div className="comp-content-mid">
-      <h2>O que nós oferecemos</h2>
+      <h1>O que nós oferecemos</h1>
         <p>
           Oferecemos uma gama abrangente de serviços econômicos para
           propriedades residenciais e comerciais
@@ -16,7 +16,7 @@ export default function CardEspecifications() {
               src="/src/assets/eletricImg1.svg"
               alt="imagem placa eletrica"
             />
-            <h3>Preventiva</h3>
+            <h2>Preventiva</h2>
             <p>
               A <b>manutenção elétrica preventiva</b> é uma inspeção feita de
               tempos em tempos nas instalações elétricas para antecipar
@@ -29,7 +29,7 @@ export default function CardEspecifications() {
               src="/src/assets/eletricImgLampada.svg"
               alt="imagem lampada cinza"
             />
-            <h3>Instalação elétrica</h3>
+            <h2>Instalação elétrica</h2>
             <p>
               <b>Infraestrutura,</b>
               <b> Cabeamento</b>,<b> Quadro elétrico principal</b>;{" "}
@@ -42,7 +42,7 @@ export default function CardEspecifications() {
               src="/src/assets/eletricImgTomada.svg"
               alt="imagem tomada cinza"
             />
-            <h3>Reparos & Manutenção</h3>
+            <h2>Reparos & Manutenção</h2>
             <p>
               <b>Reparo e manutenção elétrica </b>envolve o diagnóstico, correção de
               falhas e a manutenção preventiva de sistemas elétricos.
