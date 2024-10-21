@@ -5,7 +5,7 @@ export default function Header() {
     <div className="comp-header">
       <header>
         <div className="list-header">
-          <img src="/src/assets/Bolt.svg" alt="logo raio" />
+          <img src="/src/assets/images/Bolt.svg" alt="logo raio" />
           <h1>ELÉTRICA</h1>
         </div>
         <nav>

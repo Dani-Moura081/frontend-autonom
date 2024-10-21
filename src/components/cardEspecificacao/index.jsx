@@ -13,7 +13,7 @@ export default function CardEspecifications() {
         <div className="container-eletricaEspecifications">
           <div>
             <img
-              src="/src/assets/eletricImg1.svg"
+              src="/src/assets/images/eletricImg1.svg"
               alt="imagem placa eletrica"
             />
             <h2>Preventiva</h2>
@@ -26,7 +26,7 @@ export default function CardEspecifications() {
           </div>
           <div>
             <img
-              src="/src/assets/eletricImgLampada.svg"
+              src="/src/assets/images/eletricImgLampada.svg"
               alt="imagem lampada cinza"
             />
             <h2>Instalação elétrica</h2>
@@ -39,7 +39,7 @@ export default function CardEspecifications() {
           </div>
           <div>
             <img
-              src="/src/assets/eletricImgTomada.svg"
+              src="/src/assets/images/eletricImgTomada.svg"
               alt="imagem tomada cinza"
             />
             <h2>Reparos & Manutenção</h2>
