@@ -18,6 +18,13 @@
       justify-content: space-between;
       align-items: center;
       & > div {
+        img {
+          transition: transform 0.3s ease-out; // Suaviza a animação de "pulo"
+          
+        }
+        &:hover img {
+          transform: translateY(-10px); // Movimenta a imagem 10px para cima
+        }
         min-width: auto;
         width: fit-content;
         display: flex;

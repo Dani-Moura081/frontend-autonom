@@ -1,6 +1,7 @@
 import { faLightbulb } from "@fortawesome/free-solid-svg-icons";
 import "./index.scss";
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import Header from "../../components/header";
 import CardEspecifications from "../../components/cardEspecificacao";
 import CardFeedback from "../../components/cardFeedback";
@@ -13,6 +14,7 @@ const LampIconComponent = () => {
 };
 
 function Home() {
+  const navigate = useNavigate();
   return (
     <>
       <div className="page-home page">
@@ -26,7 +28,7 @@ function Home() {
           <div>
             <h1>Elétrica & Mais</h1>
             <p>Um serviço em que você pode confiar</p>
-            <button className="button">Agende agora</button>
+            <button className="button">Conheça-nos</button>
           </div>
         </section>
         <section className="content-init">
@@ -101,10 +103,34 @@ function Home() {
             <div className="social-medias">
               <h6>Redes Sociais</h6>
               <div>
-                <Link><img src="/src/assets/images/face.png" alt="facebook image" className="facebook"/></Link>
-                <Link><img src="/src/assets/images/twitter.png" alt="twitter image" className="twitter"/></Link>
-                <Link><img src="/src/assets/images/insta.png" alt="instagram image" className="instagram"/></Link>
-                <Link><img src="/src/assets/images/google.png" alt="google image" className="googleplus"/></Link>
+                <Link>
+                  <img
+                    src="/src/assets/images/face.png"
+                    alt="facebook image"
+                    className="facebook"
+                  />
+                </Link>
+                <Link>
+                  <img
+                    src="/src/assets/images/twitter.png"
+                    alt="twitter image"
+                    className="twitter"
+                  />
+                </Link>
+                <Link>
+                  <img
+                    src="/src/assets/images/insta.png"
+                    alt="instagram image"
+                    className="instagram"
+                  />
+                </Link>
+                <Link>
+                  <img
+                    src="/src/assets/images/google.png"
+                    alt="google image"
+                    className="googleplus"
+                  />
+                </Link>
               </div>
             </div>
           </div>

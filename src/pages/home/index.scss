@@ -18,9 +18,10 @@
       padding: 10px 0px 10px 0px;
       cursor: pointer;
       font: 500 28px "Roboto";
+      transition: all 0.3s ease;
     }
     .button:hover {
-      background-color: #ff8c00;
+      background-color: #ff8c00c3;
     }
     display: block;
     .imagem-fundo {
@@ -73,10 +74,6 @@
           margin-bottom: 20px;
         }
 
-        .button:hover {
-          background-color: #ff8c00;
-        }
-
         .button {
           text-align: center;
           border: none;
@@ -87,6 +84,9 @@
           font: 500 20px "Roboto";
           cursor: pointer;
           transition: background-color 0.3s ease;
+        }
+        .button:hover {
+          background-color: #ff8c00;
         }
       }
     }
@@ -137,6 +137,20 @@
       align-items: center;
       justify-content: space-between;
       .contatos {
+        @keyframes blink {
+          0%,
+          100% {
+            opacity: 1;
+            filter: brightness(1);
+          }
+          50% {
+            opacity: 0.5;
+            filter: brightness(1.5);
+          }
+        }
+        img {
+          animation: blink 1s infinite;
+        }
         margin-left: 50px;
         display: flex;
         flex-direction: column;

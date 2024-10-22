@@ -13,6 +13,9 @@
         font: 500 1.2em "Inter";
         list-style: none;
         gap: 20px;
+        a, a:active, :any-link, a:visited{
+          color: black;
+        }
         li {
           padding: 10px;
           cursor: pointer;
@@ -27,6 +30,35 @@
     }
   }
   .list-header {
+    @keyframes shake {
+      0%, 100% {
+        transform: translate(0, 0);
+      }
+      25% {
+        transform: translate(2px, -2px);
+      }
+      50% {
+        transform: translate(-2px, 2px);
+      }
+      75% {
+        transform: translate(2px, 2px);
+      }
+    }
+    
+    @keyframes glow {
+      0% {
+        filter: brightness(1);
+      }
+      50% {
+        filter: brightness(2);
+      }
+      100% {
+        filter: brightness(1);
+      }
+    }
+    img {
+      animation: shake 0.2s ease-in-out infinite alternate, glow 1s infinite;
+    }
     margin-left: 30px;
     display: flex;
     align-items: center;

@@ -1,5 +1,5 @@
 import "./index.scss";
-
+import { Link } from "react-router-dom";
 export default function Header() {
   return (
     <div className="comp-header">
@@ -10,10 +10,18 @@ export default function Header() {
         </div>
         <nav>
           <ul>
-            <li>Home</li>
-            <li>Services</li>
-            <li>About</li>
-            <li>Contact Us</li>
+            <Link to={"/"}>
+              <li>Home</li>
+            </Link>
+            <Link to={"/services"}>
+              <li>Services</li>
+            </Link>
+            <Link to={"/about"}>
+              <li>About</li>
+            </Link>
+            <Link to={'/contact'}>
+              <li>Contact Us</li>
+            </Link>
           </ul>
         </nav>
       </header>
