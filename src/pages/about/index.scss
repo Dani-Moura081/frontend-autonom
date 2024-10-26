@@ -17,4 +17,36 @@
     }
   }
 
+  .aboutUs-description {
+    display: flex;
+    flex-direction: column;
+    padding: 26px 80px 20px 80px; 
+    background-color: #EDEDED;
+
+      .description {
+        display: flex;
+        
+
+        .text {
+          width: 50%;
+          p {
+            font-size:20px;
+            color: #272727;
+            line-height: 1.5;
+            li {
+              font: 600 20px "Poppins";
+              margin-left: 22px;
+            }
+          }
+        }
+        .img {
+          width: 50%;
+        }
+      }
+      .path {
+        color: #8B8B8B;
+        display: flex;
+        margin-bottom: 30px;
+      }
+  }
 }
