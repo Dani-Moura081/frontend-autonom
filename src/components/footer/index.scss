@@ -78,3 +78,30 @@
     }
   }
 }
+
+@media (max-width: 768px) {
+  .informations-footer {
+    flex-direction: column; // Muda a direção do flex para coluna em telas menores
+    align-items: center; // Centraliza os itens
+    .contatos {
+      margin-left: 0; // Remove a margem à esquerda
+      margin-bottom: 20px; // Adiciona espaço abaixo
+    }
+    .social-medias {
+      margin-right: 0; // Remove a margem à direita
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .informations-footer {
+    .contatos h5 {
+      font-size: 1.5em; // Reduz o tamanho da fonte para telas pequenas
+      margin-right: 50px;
+    }
+    .social-medias h6 {
+      font-size: 20px; // Reduz o tamanho da fonte para telas pequenas
+      margin-left: 35 px;
+    }
+  }
+}
